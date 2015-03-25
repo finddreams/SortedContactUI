@@ -24,12 +24,7 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
-/**
- * Bitmap图片的加载
- * @author liuxiang
- * @date 2015-2-5 上午11:35:27
- * @version V1.0
- */ 
+
 public class BitmapUtil {
 	
 	// 保存 bitmap 到SD卡F
