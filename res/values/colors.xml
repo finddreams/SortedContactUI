@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <color name="whites">#ffffff</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="yellow">#F99503</color>
+      <color name="gray_color">#ffe8ecef</color>
+      <color name="bg_sort_color">#EDEDED</color>
+</resources>

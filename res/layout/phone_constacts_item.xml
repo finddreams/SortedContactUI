@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#454545"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:clickable="false"
+       	android:enabled="false"
+        android:background="@color/bg_sort_color"
+        android:paddingBottom="5dip"/>
+    <LinearLayout 
+        android:id="@+id/ll_constact"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+       >
+        <com.finddreams.sortedcontact.ImageTextView
+            android:id="@+id/icon" 
+            android:layout_marginLeft="5dip"
+            android:layout_height="wrap_content"
+            android:layout_width="45dip"
+            android:text="find"
+           />
+        <TextView 
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="#336598"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>
